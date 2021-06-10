@@ -53,6 +53,10 @@ _31.05.2021:_
 
 Initial contact and thoughts about an Arduino core implementation with @kemotz via Email.
 
+_02.06.2021:_
+
+Creation of the Github project and the discord channel.
+
 _10.06.2021:_
 
 A custom dev board has been designed and is in production. The repo with the files for it is at https://github.com/kemotz/GD32F1x0-dev-brd. 
