@@ -13,7 +13,8 @@ Why create our own Arduino core?
     * e.g., GD32F170, GD32F190, ...
     * for these, no Arduino core exists of yet (that is publically known). Though luck if you wanted to use Arduino with them.
     * => we can fill a gap here for these chips
-* Still, using the above Arduino STM32 cores is striclty speaking legally forbidden, due to the core using STM32 HAL code, which has a license stating it *may only run on STM32 parts*. Running it on GD32 chips violates that
+* Still, using the above Arduino STM32 core with some eneabled features is strictly speaking legally forbidden, due to the core using STM32 middleware USB libraries [here](https://github.com/stm32duino/Arduino_Core_STM32/blob/master/License.md#Ultimate-Liberty-License), which has a license stating it *may only run on STM32 parts*. Running it on GD32 chips violates that
+     * (from https://www.st.com/SLA0044) "This software or any part thereof, including modifications and/or derivative works of this software, must be used and execute solely and exclusively on or in combination with a microcontroller or microprocessor device manufactured by or for STMicroelectronics."
    * => We can make a new Arduino core free of these licensing issues by carefully choosing the included (or non-included / self-written) code
 
 ## Collaborating
