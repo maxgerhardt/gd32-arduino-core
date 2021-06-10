@@ -24,11 +24,14 @@ A custom dev board has been designed to make development uniform / reproducable.
    * [ ] Decide on questions that influence the core design, e.g.
       * [ ] Depend on / call into SPL framework by GigaDevice, or write own baremetal drivers?
            * flash savings and customizability vs simplicity / development speed
+           * also has implications on used licence? 
       * [ ] PlatformIO integration first, Arduino IDE integration later? 
       * [ ] Software USB implementation for chips not supporting USB? 
       * [ ] What exact chips need a custom Arduino core because they are not clones of some STM32 chip (and thus https://github.com/stm32duino/Arduino_Core_STM32 applies) 
       * [ ] etc. etc.
-
+   * [ ] decide on possible project license 
+        * different ones for different parts of code (external and internal)?
+        * Arduino Core API (https://github.com/arduino/ArduinoCore-API/) is LGPL I think?
 ## Updates / History
 
 _31.05.2021:_
