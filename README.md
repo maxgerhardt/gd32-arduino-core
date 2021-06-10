@@ -37,7 +37,7 @@ Initial contact and thoughts about an Arduino core implementation with @kemotz v
 
 _10.06.2021:_
 
-A custom dev board has been designed and is in production. The repo with the files for it are at https://github.com/kemotz/GD32F1x0-dev-brd. 
+A custom dev board has been designed and is in production. The repo with the files for it is at https://github.com/kemotz/GD32F1x0-dev-brd. 
 
 ![grafik](https://user-images.githubusercontent.com/26485477/121490451-4eab5380-c9d5-11eb-867f-b4cba305374b.png)
 ![grafik](https://user-images.githubusercontent.com/26485477/121490465-53700780-c9d5-11eb-8b05-18b1cfc1b38f.png)
