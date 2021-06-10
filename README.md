@@ -6,7 +6,7 @@ A Arduino core implementation for some GD32 type chips, at first focusing on GD3
 
 Why create our own Arduino core? 
 
-* Some GD32 chips are directly clones / drop-in-replacements of STM32 chips, e.g., the STM32F103 and GD32F103
+* Some GD32 chips are drop-in-replacements of STM32 chips, e.g., the STM32F103 and GD32F103
    * the GD32 chips sometimes have extended capabilities though, e.g. running at a higher clock speed due to one bit more in the PLL multiplier registers
    * the standard Arduino STM32 cores such as https://github.com/stm32duino/Arduino_Core_STM32 and https://github.com/rogerclarkmelbourne/Arduino_STM32/ should technically work with it
 * Some GD32 chips are not close enough clones / different chips compared to existing STM32 ones
