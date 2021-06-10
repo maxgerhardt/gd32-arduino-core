@@ -15,14 +15,15 @@ A custom dev board has been designed to make development uniform / reproducable.
 ## ToDo List (subjecto to change)
 
 * Hardware Design
-   * [ ] Design custom PCB for development
-   * [ ] Submit for manufacturing
+   * [X] Design custom PCB for development
+   * [X] Submit for manufacturing
    * [ ] Get PCBs back
    * [ ] Distribute to devs
    * [ ] Verify and test PCBs (with e.g. simple SPL firmwares)
 * Software Design
    * [ ] Decide on questions that influence the core design, e.g.
       * [ ] Depend on / call into SPL framework by GigaDevice, or write own baremetal drivers?
+           * flash savings and customizability vs simplicity / development speed
       * [ ] PlatformIO integration first, Arduino IDE integration later? 
       * [ ] Software USB implementation for chips not supporting USB? 
       * [ ] What exact chips need a custom Arduino core because they are not clones of some STM32 chip (and thus https://github.com/stm32duino/Arduino_Core_STM32 applies) 
