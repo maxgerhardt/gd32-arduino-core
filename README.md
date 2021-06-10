@@ -2,6 +2,20 @@
 
 A Arduino core implementation for some GD32 type chips, at first focusing on GD32F1x0 type chips. 
 
+## Movatition
+
+Why create our own Arduino core? 
+
+* Some GD32 chips are directly clones / drop-in-replacements of STM32 chips, e.g., the STM32F103 and GD32F103
+   * the GD32 chips sometimes have extended capabilities though, e.g. running at a higher clock speed due to one bit more in the PLL multiplier registers
+   * the standard Arduino STM32 cores such as https://github.com/stm32duino/Arduino_Core_STM32 and https://github.com/rogerclarkmelbourne/Arduino_STM32/ should technically work with it
+* Some GD32 chips are not close enough clones / different chips compared to existing STM32 ones
+    * e.g., GD32F170, GD32F190, ...
+    * for these, no Arduino core exists of yet (that is publically known). Though luck if you wanted to use Arduino with them.
+    * => we can fill a gap here for these chips
+* Still, using the above Arduino STM32 cores is striclty speaking legally forbidden, due to the core using STM32 HAL code, which has a license stating it *may only run on STM32 parts*. Running it on GD32 chips violates that
+   * => We can make a new Arduino core free of these licensing issues by carefully choosing the included (or non-included / self-written) code
+
 ## Collaborating
 
 Interested in collaborating? Join our dedicated Discord channel for this at https://discord.gg/59kf4JxsRM.
