@@ -1,3 +1,6 @@
+# THIS REPO IS NOT DEVELOPED FURTHER
+# SEE NEW ARDUINO CORE DEVELOPMENTS AT https://github.com/CommunityGD32Cores/GD32Core-New
+
 # GD32 Arduino Core
 
 A Arduino core implementation for some GD32 type chips, at first focusing on GD32F1x0 type chips. 
