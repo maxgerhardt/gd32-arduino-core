@@ -1,5 +1,5 @@
 # THIS REPO IS NOT DEVELOPED FURTHER
-# SEE NEW ARDUINO CORE DEVELOPMENTS AT https://github.com/CommunityGD32Cores/GD32Core-New
+# SEE NEW ARDUINO CORE DEVELOPMENTS AT https://github.com/CommunityGD32Cores/ArduinoCore-GD32
 
 # GD32 Arduino Core
 
